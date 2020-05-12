@@ -1,16 +1,17 @@
 #!/bin/bash
 
-curl "http://localhost:4741/collections" \
+curl "http://localhost:4741/entries" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
-    "collection": {
-      "name": "'"${NAME}"'",
+    "entry": {
+      "title": "'"${TITLE}"'",
       "description": "'"${DESC}"'",
-      "user_id": "'"${USERID}"'",
-      "entry_id": "'"${ENTRYID}"'"
+      "date": "'"${DATE}"'",
+      "collection_id": "'"${COLLECTIONID}"'",
+      "url": "'"${URL}"'",
     }
   }'
 
