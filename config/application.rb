@@ -40,6 +40,13 @@ module Articles
     # A call such as Patient.all is required to connect to the database.
     #
     # Overriding to  establish a connection to the database when in the console
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', headers: :any, methods: :any
+      end
+    end
+
     console do
       ActiveRecord::Base.connection
     end
