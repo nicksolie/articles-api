@@ -7,7 +7,7 @@ A web app to search through the Library of Congress’s digitized newspaper arch
 1. Fork and clone this repository.
 2. Run `bundle install` to install all dependencies
 3. Use `bin/rails server` to spin up the server.
-4. Go to the [API Repo](https://github.com/nicksolie/articles-api) for back end information.
+4. Go to the [Client Repo](https://github.com/nicksolie/articles-react) for front end information.
 
 ## Dependencies
 
