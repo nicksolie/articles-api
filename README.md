@@ -22,8 +22,8 @@ Install with `bundle install`.
 ## Important Links
 
 - [Client Link](https://github.com/nicksolie/articles-react)
-- [Deployed API](https://mysterious-springs-88508.herokuapp.com/)
-- [Deployed Client](https://nicksolie.github.io/articles-react/#/)
+- [Deployed API](https://articles-search-api.herokuapp.com)
+- [Deployed Client](https://nicksolie.github.io/articles-react)
 
 ## Planning Story
 
