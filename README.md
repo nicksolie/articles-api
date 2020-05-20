@@ -2,6 +2,23 @@
 
 A web app to search through the Library of Congress’s digitized newspaper archive.. Users can search with Chronicling America’s API to find high resolution PDFs of various newspaper publications dating back to the 1600s.
 
+## Setup Steps
+
+1. Fork and clone this repository.
+2. Run `bundle install` to install all dependencies
+3. Use `bin/rails server` to spin up the server.
+4. Go to the [API Repo](https://github.com/nicksolie/articles-api) for back end information.
+
+## Dependencies
+
+Install with `bundle install`.
+
+-   [`rails-api`](https://github.com/rails-api/rails-api)
+-   [`rails`](https://github.com/rails/rails)
+-   [`active_model_serializers`](https://github.com/rails-api/active_model_serializers)
+-   [`ruby`](https://www.ruby-lang.org/en/)
+-   [`postgres`](http://www.postgresql.org)
+
 ## Important Links
 
 - [Client Link](https://github.com/nicksolie/articles-react)
