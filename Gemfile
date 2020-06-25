@@ -8,6 +8,7 @@ gem 'bcrypt', '~> 3.1.11'
 gem 'pg', '~> 0.21'
 gem 'puma', '~> 3.11.2'
 gem 'rails', '~> 5.2.3'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'byebug', '~> 10.0.0', platform: :mri
